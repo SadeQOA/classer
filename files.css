@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+    gap: 10px; /* Adjust the gap between elements */
+}
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure padding is included in width calculation */
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure padding is included in width calculation */
+}
+
+.wide-input {
+    width: calc(25% - 10px); /* Adjust as needed */
+    margin-right: 10px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.create-button,
+.delete-button,
+.long-search-button {
+    width: 100%;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Blue color for buttons */
+    color: #fff;
+    cursor: pointer;
+}
+
+.create-button:hover,
+.delete-button:hover,
+.long-search-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.search-input {
+    width: calc(50% - 5px); /* Adjust as needed */
+    margin-right: 5px;
+}
+
+.search-button-group {
+    margin-top: 10px;
+}
+
+.search-buttons-container {
+    display: flex;
+    gap: 10px; /* Adjust the gap value as needed */
+}
+
+.long-search-button {
+    flex-grow: 1; /* Make buttons fill available space equally */
+    margin-right: 10px; /* Adjust margin as needed */
+}
+
+span {
+    flex-basis: calc((100% - (10px * 10)) / 10); /* Calculate width for each span */
+    margin: 0;
+    padding: 8px;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+/* Add this CSS to your existing styles */
+.nigga {
+    width: auto; /* Make the input short, default width */
+    background-color: rgb(221, 91, 91); /* Change background color to red */
+    color: white; /* Change text color to white */
+    padding: 5px; /* Adjust padding as needed */
+    border: 1px solid rgb(221, 91, 91); /* Add red border */
+    border-radius: 5px; /* Add border radius */
+    
+}
+/* Add this CSS to your existing styles */
+.hahah {
+    display: flex;
+    gap: 10px; /* Adjust the gap value as needed */
+}
+.hahah input[type="text"] {
+    flex: 1; /* Allow inputs to grow and fill available space equally */
+}
+.bigger-input {
+    width: calc(40% - 10px); /* Adjust as needed */
+}
+
+.smaller-input {
+    width: calc(20% - 10px); /* Adjust as needed */
+}
+/* styles.css */
+
+/* Base styling for both buttons */
+button.no1, button.no2 {
+    font-family: Arial, sans-serif; /* Sets the font */
+    font-size: 16px; /* Sets the font size */
+    padding: 10px 5px; /* Adds padding inside the button */
+    color: rgb(255, 255, 255); /* Sets the text color */
+border-radius: 10px; 
+   cursor: pointer; /* Changes the cursor to a pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+button.no1 {
+    background-color: #7500fc; /* Green background */
+}
+
+button.no2 {
+    background-color: #7500fc; /* Red background */
+}
+
+button.no1:hover {
+    background-color: #7500fc; /* Darker shade of green */
+}
+
+button.no2:hover {
+    background-color: #7500fc; /* Darker shade of red */
+}
